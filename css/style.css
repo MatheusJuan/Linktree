@@ -57,3 +57,6 @@
     font-weight: 500;
     color: var(--texto);
 }
+.img-perfil:hover{
+    transform: scale(1.1); 
+}
