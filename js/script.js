@@ -4,7 +4,7 @@ const btn = document.getElementById('btn');
 const title = document.getElementById('title');
 
 
-chk.addEventListener("click", () => {
+chk.addEventListener("change", () => {
   body.classList.toggle('light');
   btn.classList.toggle('dark');
   title.classList.toggle('dark');
