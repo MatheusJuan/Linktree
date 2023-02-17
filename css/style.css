@@ -27,14 +27,14 @@ body.light {
     background-color: var(--fundo);
     color: var(--btn);
 }
-btn-primary.ligth {
+btn-primary.light {
     color: var(--light);
     font-weight: 700;
     background-color: var(--fundo);
     border: 2px var(--fundo);
 }
 
-btn-primary:hover .ligth {
+btn-primary:hover .light {
     background-color: var(--light);
     color: var(--fundo);
 }
