@@ -13,7 +13,7 @@
 }
 
 body.light {
-    background: #ffffff;
+    background: var(--light);
 }
 
 .btn-primary {
