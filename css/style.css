@@ -34,10 +34,6 @@ btn-primary.light {
     border: 2px var(--fundo);
 }
 
-btn-primary:hover .light {
-    background-color: var(--light);
-    color: var(--fundo);
-}
 .container-sm {
     border-radius: 50px;
     padding-top: 45px;
