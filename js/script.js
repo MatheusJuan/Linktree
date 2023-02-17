@@ -1,7 +1,7 @@
 const chk = document.getElementById('chk');
 
 chk.addEventListener("click", () => {
-  body.classList.toggle('light');
-  btn.classList.toggle('dark');
-  title.classList.toggle('dark');
+  document.getElementById('body').classList.toggle('light');
+  document.getElementById('btn').classList.toggle('dark');
+  document.getElementById('title').classList.toggle('dark');
 });
