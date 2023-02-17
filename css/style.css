@@ -23,7 +23,7 @@
 .btn-primary:hover {
     background-color: var(--hover-dark);
     color: var(--light);
-    scale: 3em;
+    transform: scale(0.5); 
 }
 
 .container-sm {
