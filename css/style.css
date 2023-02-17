@@ -21,7 +21,7 @@
 }
 
 .btn-primary:hover {
-    background-color: var(--hover-dark);
+    background-color: var(--light);
     color: var(--btn);
 }
 
