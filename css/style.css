@@ -27,13 +27,7 @@ body.light {
     background-color: var(--fundo);
     color: var(--btn);
 }
-
-.container-fluid {
-    background-color: var(--fundo);
-}
-
 .container-sm {
-    background-color: var(--fundo);
     border-radius: 50px;
     padding-top: 45px;
     padding-right: 30px;
