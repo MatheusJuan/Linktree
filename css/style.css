@@ -22,7 +22,7 @@ body.light {
     background-color: var(--btn);
     border: 2px var(--fundo);
 }
-btn.light {
+btn.dark {
     color: var(--light);
     font-weight: 700;
     background-color: var(--fundo);
@@ -55,7 +55,7 @@ btn.light {
     font-weight: 500;
     color: var(--texto);
 }
-title.light {
+title.dark {
     text-align: center;
     font-weight: 500;
     color: var(--fundo);
