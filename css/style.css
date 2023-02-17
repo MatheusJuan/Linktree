@@ -13,7 +13,7 @@
 .btn-primary {
     color: var(--fundo);
     font-weight: 700;
-    background-color: var(--fundo);
+    background-color: var(--btn);
     border: 2px  var(--fundo) ;
 }
 
@@ -35,7 +35,7 @@
 }
 .bio {
     text-align: center;
-    color:  var(--fundo) ;
+    color:  var(--texto) ;
     font-weight: 300;
     background-color: black;
     padding: 10px;
