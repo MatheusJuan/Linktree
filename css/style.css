@@ -61,6 +61,16 @@ btn-primary.light {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+ig.light {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--fundo);
 }
 
 .checkbox {
