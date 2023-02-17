@@ -16,19 +16,19 @@ body.light {
     background: var(--light);
 }
 
-.btn-primary {
+.btn {
     color: var(--fundo);
     font-weight: 700;
     background-color: var(--btn);
     border: 2px var(--fundo);
 }
-btn-primary.light {
+btn.light {
     color: var(--light);
     font-weight: 700;
     background-color: var(--fundo);
     border: 2px var(--fundo);
 }
-.btn-primary:hover {
+.btn:hover {
     background-color: var(--fundo);
     color: var(--btn);
 }
