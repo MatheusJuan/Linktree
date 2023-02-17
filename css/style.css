@@ -13,7 +13,7 @@
 }
 
 body.light {
-    background: var(--light);
+    background: var(--btn)  !important;
 }
 
 .btn-primary {
@@ -24,10 +24,10 @@ body.light {
 }
 
 btn-primary.dark {
-    color: var(--light);
-    font-weight: 700;
-    background-color: var(--fundo);
-    border: 2px var(--fundo);
+    color: var(--light) !important;
+    font-weight: 700 !important;
+    background-color: var(--fundo) !important;
+    border: 2px var(--fundo) !important;
 }
 
 .btn-primary:hover {
@@ -59,9 +59,9 @@ btn-primary.dark {
 }
 
 title.dark {
-    text-align: center;
-    font-weight: 500;
-    color: var(--fundo);
+    text-align: center  !important;
+    font-weight: 500 !important;
+    color: var(--fundo) !important;
 }
 
 .ig {
