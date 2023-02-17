@@ -5,6 +5,7 @@
     --light: #ffffff;
     --btn: #E3C2B3;
     --texto: #E3C2B3;
+    --hover-dark: #2f2f2f;
 }
 
 .body {
@@ -20,7 +21,7 @@
 }
 
 .btn-primary:hover {
-    background-color: var(--fundo);
+    background-color: var(--hover-dark);
     color: var(--btn);
 }
 
@@ -54,50 +55,4 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: var(--texto);
-}
-
-.checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-.label {
-    background-color: #111;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 5px;
-    position: relative;
-    height: 26px;
-    width: 50px;
-    transform: scale(1.5);
-
-}
-
-
-.label .ball {
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 22px;
-    width: 22px;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
-}
-
-.checkbox:checked+.label .ball {
-    transform: translateX(24px);
-}
-
-.fa-moon {
-    color: #f1c40f;
-}
-
-.fa-sun {
-    color: #f39c12;
 }
