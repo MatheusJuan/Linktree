@@ -1,5 +1,6 @@
-const chk = document.getElementById('chk')
+const chk = document.getElementById('chk');
 
-chk.addEventListener('change', () => {
+chk.addEventListener('change', function () {
   document.body.classList.toggle('light');
-})
+  document.btn.classList.toggle('light');
+});
