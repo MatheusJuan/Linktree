@@ -21,8 +21,9 @@
 }
 
 .btn-primary:hover {
-    background-color: var(--light);
-    color: var(--btn);
+    background-color: var(---dark);
+    color: var(--light);
+    scale: 3em;
 }
 
 .container-sm {
