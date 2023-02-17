@@ -4,8 +4,8 @@ const btn = document.getElementById('btn');
 const title = document.getElementById('title');
 
 
-chk.addEventListener("change", () => {
-  body.classList.toggle('lightt');
-  btn.classList.toggle('dark');
-  title.classList.toggle('dark');
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('light');
+  document.btn.classList.toggle('dark');
+  document.title.classList.toggle('dark');
 });
