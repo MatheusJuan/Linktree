@@ -22,16 +22,15 @@ body.light {
     background-color: var(--btn);
     border: 2px var(--fundo);
 }
-
-.btn-primary:hover {
-    background-color: var(--fundo);
-    color: var(--btn);
-}
 btn-primary.light {
     color: var(--light);
     font-weight: 700;
     background-color: var(--fundo);
     border: 2px var(--fundo);
+}
+.btn-primary:hover {
+    background-color: var(--fundo);
+    color: var(--btn);
 }
 
 .container-sm {
