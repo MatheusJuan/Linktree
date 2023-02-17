@@ -16,19 +16,21 @@ body.light {
     background: var(--light);
 }
 
-.btn {
+.btn-primary {
     color: var(--fundo);
     font-weight: 700;
     background-color: var(--btn);
     border: 2px var(--fundo);
 }
-btn.dark {
+
+btn-primary.dark {
     color: var(--light);
     font-weight: 700;
     background-color: var(--fundo);
     border: 2px var(--fundo);
 }
-.btn:hover {
+
+.btn-primary:hover {
     background-color: var(--fundo);
     color: var(--btn);
 }
@@ -55,11 +57,13 @@ btn.dark {
     font-weight: 500;
     color: var(--texto);
 }
+
 title.dark {
     text-align: center;
     font-weight: 500;
     color: var(--fundo);
 }
+
 .ig {
     text-align: center;
     padding-top: 20px;
@@ -68,6 +72,7 @@ title.dark {
     font-weight: 500;
     color: var(--texto);
 }
+
 ig.light {
     text-align: center;
     padding-top: 20px;

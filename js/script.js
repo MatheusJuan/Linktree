@@ -1,6 +1,6 @@
 const chk = document.getElementById('chk');
 const body = document.getElementById('body');
-const btn = document.getElementById('btn');
+const btn = document.getElementById('btn-primary');
 const title = document.getElementById('title');
 
 
