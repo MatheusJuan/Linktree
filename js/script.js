@@ -6,6 +6,6 @@ const title = document.getElementById('title');
 
 chk.addEventListener('change', () => {
   document.body.classList.toggle('light');
-  document.title.classList.toggle('dark');
-  document.btn.classList.toggle('dark');
+  document.title.classList.toggle('.dark');
+  document.btn.classList.toggle('.dark');
 });
