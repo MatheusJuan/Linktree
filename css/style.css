@@ -42,6 +42,9 @@
     padding: 10px;
     border-radius: 50px;
 }
+.bio:hover{
+    transform: scale(1.1); 
+}
 
 .title {
     text-align: center;
