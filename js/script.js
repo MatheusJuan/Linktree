@@ -1,4 +1,4 @@
-const chk = document.querySelector('.chk');
+const chk = document.getElementById('chk');
 const body = document.querySelector('.body');
 const btn = document.querySelector('.btn-primary');
 const title = document.querySelector('.title');
