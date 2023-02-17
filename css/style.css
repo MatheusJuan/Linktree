@@ -12,22 +12,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body.light {
-    background: var(--btn)  !important;
-}
-
 .btn-primary {
     color: var(--fundo);
     font-weight: 700;
     background-color: var(--btn);
     border: 2px var(--fundo);
-}
-
-btn-primary.dark {
-    color: var(--light) !important;
-    font-weight: 700 !important;
-    background-color: var(--fundo) !important;
-    border: 2px var(--fundo) !important;
 }
 
 .btn-primary:hover {
@@ -58,12 +47,6 @@ btn-primary.dark {
     color: var(--texto);
 }
 
-title.dark {
-    text-align: center  !important;
-    font-weight: 500 !important;
-    color: var(--fundo) !important;
-}
-
 .ig {
     text-align: center;
     padding-top: 20px;
@@ -71,15 +54,6 @@ title.dark {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: var(--texto);
-}
-
-ig.light {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: var(--fundo);
 }
 
 .checkbox {
