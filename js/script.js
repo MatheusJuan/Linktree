@@ -3,7 +3,7 @@ const body = document.querySelector('.body');
 const btn = document.querySelector('.btn-primary');
 const title = document.querySelector('.title');
 
-chk.addEventListener('click', function() {
+chk.addEventListener('change', function() {
   body.classList.toggle('light');
   title.classList.toggle('dark');
   btn.classList.toggle('dark');
