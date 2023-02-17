@@ -56,13 +56,18 @@ btn-primary.light {
     font-weight: 500;
     color: var(--texto);
 }
-
+title.light {
+    text-align: center;
+    font-weight: 500;
+    color: var(--fundo);
+}
 .ig {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    color: var(--texto);
 }
 ig.light {
     text-align: center;
